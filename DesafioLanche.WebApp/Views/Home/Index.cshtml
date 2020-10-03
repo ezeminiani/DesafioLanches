@@ -1,0 +1,74 @@
+﻿@model List<DesafioLanche.WebApp.ViewModels.LancheViewModel>
+
+@{
+    ViewBag.Title = "Desafio Lanches";
+}
+
+<div class="py-3">
+    <h3 class="pb-3">Selecione seu lanche</h3>
+
+    <div class="row">
+        <div class="col-md-5">
+            <h5 class="pb-2">Nossos Lanches</h5>
+
+            <div class="row">
+                @foreach (var lanche in Model)
+                {
+                    <div class="col-sm-6">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">@lanche.Nome</h5>
+                                <p class="card-text">@lanche.Descricao</p>
+
+                                @if (lanche.Ingredientes.Any())
+                                {
+                                    <p class="mb-1">Ingredientes:</p>
+                                    <ul>
+                                        @foreach (var ingrediente in lanche.Ingredientes)
+                                        {
+                                            <li class="small">@ingrediente.Nome</li>
+                                        }
+
+                                    </ul>
+                                }
+
+                                <a href="#" class="btn btn-primary">Eu quero!</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+
+            </div>
+
+        </div>
+
+        <div class="col-md-5">
+            <h5 class="pb-2">Promoções</h5>
+            <div id="partialDiv" class="row"></div>
+        </div>
+
+        <div class="col-md-2">
+            <h5 class="pb-2">Carrinho</h5>
+
+            <div class="card">
+                <div class="card-body">
+                    <br />
+                    <br />
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+@section scripts {
+    <script type="text/javascript">
+        /* script para carregar as promoções */
+        $.get('@Url.Action("Promocao", "Home")', function (result) {
+            $("#partialDiv").html(result);
+        });
+    </script>
+}

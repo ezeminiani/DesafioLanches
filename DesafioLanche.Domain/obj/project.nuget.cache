@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "emxvhkuWGRBrf+D2HJllmfJGQ/UX46AV9WE0rxiLfk5FjmhE7mgpQ/1ktZk2kvHjECFkMjADO83D2RHI+PuQlg==",
+  "success": true,
+  "projectFilePath": "C:\\VisualStudioSolutions\\Interaxa\\DesafioLanche\\DesafioLanche.Domain\\DesafioLanche.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

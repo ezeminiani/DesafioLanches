@@ -1,0 +1,5 @@
+C:\VisualStudioSolutions\Interaxa\DesafioLanche\DesafioLanche.DTO\bin\Debug\DesafioLanche.DTO.dll
+C:\VisualStudioSolutions\Interaxa\DesafioLanche\DesafioLanche.DTO\bin\Debug\DesafioLanche.DTO.pdb
+C:\VisualStudioSolutions\Interaxa\DesafioLanche\DesafioLanche.DTO\obj\Debug\DesafioLanche.DTO.csproj.CoreCompileInputs.cache
+C:\VisualStudioSolutions\Interaxa\DesafioLanche\DesafioLanche.DTO\obj\Debug\DesafioLanche.DTO.dll
+C:\VisualStudioSolutions\Interaxa\DesafioLanche\DesafioLanche.DTO\obj\Debug\DesafioLanche.DTO.pdb
