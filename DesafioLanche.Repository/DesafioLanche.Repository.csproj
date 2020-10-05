@@ -108,6 +108,12 @@
       <DependentUpon>202010032105014_descricao_promocao.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ScriptsSQL\Scripts.sql" />
+    <Content Include="ScriptsSQL\SP_ADD_ITEMPEDIDO.sql" />
+    <Content Include="ScriptsSQL\SP_Add_Pedido.sql" />
+    <Content Include="ScriptsSQL\SP_Update_Pedido.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
